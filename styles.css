@@ -44,19 +44,26 @@ body, h1, h2, h3, p {
     text-shadow: none;
     color: black
   }
+
+/* go with browser defaults
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+} */
+
+/* mouse over link */
+/* this is the important one */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
   
   
-  /* Optionally, you can style specific elements 
-  h1 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-  }
-  */
   
