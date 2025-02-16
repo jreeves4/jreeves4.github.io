@@ -1,10 +1,13 @@
-/* Reset default margin and padding for all elements */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
   }
   
-  /* Set up the diagonal gradient background */
+  * {
+    cursor: url('spongebob.png'), auto;
+  }
+  
+
   body {
     background: linear-gradient(to bottom right, rgb(103, 103, 218), rgb(78, 226, 78));
     background-size: cover;
@@ -12,58 +15,45 @@ body, h1, h2, h3, p {
     font-size: 18px;
     width: 50%;
     margin: auto;
+    height: 100%;
+    min-height: 100vh;
   }
   
-  /* Set the font-family for all text to sans-serif */
   body, p, h1, h2, h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-shadow: 2px 2px black;
   }
 
-
-  
-  /* Add padding for the text content */
   body {
-    padding: 20px; /* Adjust the value as per your preference */
+    padding: 20px;
   }
 
-  /* CSS code for the bigbox div */
 #bigbox {
-    /* Beige background color */
     background-color: beige;
-  
-    /* Neutral gray ridge border */
     border: 1rem ridge #ccc;
-  
-    /* Optionally, you can add some padding for spacing */
     padding: 20px;
-
     margin: auto;
     width: 75%;
     text-shadow: none;
     color: black
   }
 
-/* go with browser defaults
-a:link {
-  color: red;
-}
-
-a:visited {
-  color: green;
-} */
-
-/* mouse over link */
-/* this is the important one */
 a:hover {
   color: red;
 }
 
-/* selected link */
 a:active {
   color: blue;
 } 
   
+.logo {
+  max-width: 30px; 
+  max-height: 30px;
+  float: left;
+  padding: 5px;
+}
   
-  
+#email {
+  padding: 5px;
+}
