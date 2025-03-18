@@ -3,9 +3,9 @@ body, h1, h2, h3, p {
     padding: 0;
   }
   
-  * {
+  /* * {
     cursor: url('spongebob.png'), auto;
-  }
+  } */
   
 
   body {
