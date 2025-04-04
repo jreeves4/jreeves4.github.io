@@ -29,6 +29,14 @@ body, h1, h2, h3, p {
     padding: 20px;
   }
 
+#globe {
+  margin-top: 1rem;
+}
+
+#bio {
+  margin: 1rem;
+}
+
 #bigbox {
     background-color: beige;
     border: 1rem ridge #ccc;
