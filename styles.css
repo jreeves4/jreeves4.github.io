@@ -87,6 +87,22 @@ img {
   box-shadow: 0 0 0.25rem 0.25rem rgba(255, 255, 0, 0.2);
 }
 
+.project-name,
+.additional-link {
+  color: rgb(17, 17, 141);
+  text-decoration: underline;
+}
+
+.project:hover .project-name,
+.additional-link:hover {
+  color: rgb(202, 18, 18);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .firefox,
 .C,
 .typescript,
