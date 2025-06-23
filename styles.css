@@ -261,6 +261,7 @@ a {
   transform-origin: 13vw 13vh;
   box-shadow: -100vmin 0 12.711514067924606vmin currentColor;
 }
+/*
 .background span:nth-child(11) {
   color: var(--tertiary-color);
   top: 53%;
@@ -611,4 +612,4 @@ a {
   animation-delay: -136s;
   transform-origin: -14vw -18vh;
   box-shadow: 100vmin 0 13.071240535114798vmin currentColor;
-}
+} */
