@@ -225,7 +225,7 @@ a {
   transform-origin: 24vw -19vh;
   box-shadow: -100vmin 0 12.633147723956002vmin currentColor;
 }
-.background span:nth-child(7) {
+/* .background span:nth-child(7) {
   color: var(--secondary-color);
   top: 93%;
   left: 100%;
@@ -260,7 +260,7 @@ a {
   animation-delay: -151s;
   transform-origin: 13vw 13vh;
   box-shadow: -100vmin 0 12.711514067924606vmin currentColor;
-}
+} */
 /*
 .background span:nth-child(11) {
   color: var(--tertiary-color);
